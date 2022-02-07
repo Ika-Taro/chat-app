@@ -3,8 +3,4 @@ class RoomsController < ApplicationController
     @room = Room.new
   end
 
-  private
-
-  def room_params
-  end
 end
